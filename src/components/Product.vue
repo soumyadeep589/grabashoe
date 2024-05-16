@@ -38,7 +38,7 @@ const props = defineProps<Props>()
 .product-container {
     display: inline-block;
     width: 27vw;
-    margin: 48px;
+    margin: 2.5vw;
 }
 
 .image {
@@ -50,7 +50,7 @@ const props = defineProps<Props>()
     .product-container {
         display: inline-block;
         width: 40vw;
-        margin: 10px;
+        margin: 2.5vw;
         font-size: 12px;
     }
 
