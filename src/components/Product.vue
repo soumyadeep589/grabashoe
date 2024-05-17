@@ -35,9 +35,6 @@ const props = defineProps<Props>()
 </script>
 
 <style scoped>
-:root {
-    --product-card-size-large: 22vw;
-}
 
 .product-container {
     display: inline-block;
@@ -47,7 +44,7 @@ const props = defineProps<Props>()
 
 .image {
     height: var(--product-card-size-large);
-    width: var(--product-card-size-large);
+    width: 22vw;
 }
 
 @media (max-width: 991px) {
